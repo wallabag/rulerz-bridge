@@ -12,13 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        include:
-          - php: 7.1
-            symfony-version: 3.4.*
-            composer-flags: '--prefer-lowest'
-          - php: 7.2
-            symfony-version: 4.0.*
-            composer-flags: ''
+        php: [7.1, 7.2]
+        symfony-version: [3.4.*, 4.0.*]
+        composer-flags: ['', '--prefer-lowest']
       fail-fast: true
     steps:
       - uses: actions/checkout@v4
