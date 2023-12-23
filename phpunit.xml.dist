@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit colors = "true">
-
+    <php>
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="999999"/>
+    </php>
     <testsuites>
         <testsuite name="Symfony RulerZ Bridge Test Suite">
             <directory suffix="Test.php">./Tests</directory>
