@@ -23,7 +23,7 @@ class SpecTypeExtensionTest extends FormIntegrationTestCase
         ];
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->factory = Forms::createFormFactoryBuilder()
             ->addExtensions($this->getExtensions())
