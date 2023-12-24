@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         php: [7.4, 8.0, 8.1, 8.2]
-        symfony-version: [4.4.*]
+        symfony-version: [4.4.*, 5.4.*]
         composer-flags: ['', '--prefer-lowest']
       fail-fast: true
     steps:
