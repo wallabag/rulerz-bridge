@@ -1,8 +1,8 @@
 {
-    "name": "kphoen/rulerz-bridge",
+    "name": "wallabag/rulerz-bridge",
     "type": "symfony-bridge",
     "license": "MIT",
-    "homepage": "https://github.com/K-Phoen/rulerz-bridge",
+    "homepage": "https://github.com/wallabag/rulerz-bridge",
     "description": "Symfony RulerZ Bridge",
     "keywords": ["symfony", "bridge", "specification", "doctrine", "ruler", "rulerz"],
     "authors": [
@@ -27,5 +27,8 @@
         "phpunit/phpunit": "^8.5.16",
         "symfony/phpunit-bridge": "^4.4|^5.4|^6.4",
         "liip/rmt": "^1.2"
+    },
+    "replace": {
+        "kphoen/rulerz-bridge": "*"
     }
 }
