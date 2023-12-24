@@ -1,8 +1,8 @@
 {
-    "name": "kphoen/rulerz-bridge",
+    "name": "wallabag/rulerz-bridge",
     "type": "symfony-bridge",
     "license": "MIT",
-    "homepage": "https://github.com/K-Phoen/rulerz-bridge",
+    "homepage": "https://github.com/wallabag/rulerz-bridge",
     "description": "Symfony RulerZ Bridge",
     "keywords": ["symfony", "bridge", "specification", "doctrine", "ruler", "rulerz"],
     "authors": [

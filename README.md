@@ -1,4 +1,4 @@
-RulerZ Symfony Bridge [![Build Status](https://travis-ci.org/K-Phoen/rulerz-bridge.svg?branch=master)](https://travis-ci.org/K-Phoen/rulerz-bridge)
+RulerZ Symfony Bridge [![Build Status](https://travis-ci.org/wallabag/rulerz-bridge.svg?branch=master)](https://travis-ci.org/wallabag/rulerz-bridge)
 =====================
 
 This bundle integrates [RulerZ](https://github.com/K-Phoen/rulerz) into a Symfony
